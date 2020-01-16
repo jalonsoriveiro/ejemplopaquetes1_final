@@ -4,6 +4,7 @@ import com.jose.circulo.AreaCirculo;
 import com.jose.circulo.Lonxitude;
 import triangulo.AreaTriangulo;
 import triangulo.PerimetroTriangulo;
+import validaciones.*;
 /**
  *
  * @author jalonsoriveiro
@@ -22,8 +23,16 @@ public class EjemploPaquetes {
             AreaCirculo cir = new AreaCirculo();
             cir.areaCirculo(8);
             Lonxitude cir2 = new Lonxitude();
-            cir2.lonxitude(8);            
+            cir2.lonxitude(8); 
             
+            Validar obj6 = new Validar();
+            float n = Validar.validaFloatPositivo();
+            
+            //obj6.validaFloatPositivo();
+           
+            
+           
+           
     }    
     
 }

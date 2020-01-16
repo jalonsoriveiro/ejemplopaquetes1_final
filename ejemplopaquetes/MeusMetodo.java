@@ -13,14 +13,14 @@ import java.util.Scanner;
  */
 public class MeusMetodo {
 
-    public static float validaFloatPositivo(){
+   /* public static float validaFloatPositivo(){
         Scanner sc = new Scanner(System.in);
         float valor;
         do{
          valor = sc.nextFloat();        
         }while(valor<=0);
         return valor;
-    }
+    }*/
     
     
 }
